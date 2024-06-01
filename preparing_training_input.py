@@ -30,11 +30,18 @@ def get_training_input():
                 break
 
         new_frames = []
-        for i in range(0, len(frames), math.ceil(len(frames)/30)):
-            new_frames.append(frames[i])
+        if len(frames) < 30:
+            new_frames = frames
+        else:
+            frame_counter = 0
+            for i in range(0, len(frames), math.floor(len(frames)/30)):
+                if frame_counter >= 30:
+                    break
+                new_frames.append(frames[i])
+                frame_counter += 1
         if len(new_frames) != 30:
             new_frames.append(frames[-1])
-            
+        print(f"Num of frames: {len(new_frames)}")
         word_frames_dict[word] = new_frames
         counter += 1
     return word_frames_dict
