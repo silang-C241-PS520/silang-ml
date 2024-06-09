@@ -1,0 +1,501 @@
+- saya
+
+- aku
+
+- anda
+
+- kamu
+
+- dia
+
+- acara
+
+- administrasi
+
+- ahli
+
+- akhir
+
+- akses
+
+- aktif
+
+- aktor
+
+- akun
+
+- alam
+
+- bagian
+
+- bahasa
+
+- bahaya
+
+- bandara
+
+- bangsa
+
+- buku 
+
+- bulan
+
+- bumi
+
+- bunga
+
+- burung
+
+- bus
+
+- bangunan
+
+- Bank
+
+- cabang
+
+- cahaya
+
+- calon
+
+- campuran
+
+- cangkir
+
+- cara
+
+- cat
+
+- catatan
+
+- cedera
+
+- cermin
+
+- dada
+
+- daerah
+
+- daftar
+
+- daging
+
+- dampak
+
+- danau
+
+- dapur
+
+- darah
+
+- darurat
+
+- dasar
+
+- efek
+
+- efisiensi
+
+- ekonomi
+
+- ekspresi
+
+- emas
+
+- emosi
+
+- energi
+
+- fakta
+
+- faktor
+
+- film
+
+- fisik
+
+- fitur
+
+- foto
+
+- fungsi
+
+- gadis
+
+- gambar
+
+- garasi
+
+- gas
+
+- gaun
+
+- gelar
+
+- gerakan
+
+- gerbang
+
+- hadiah
+
+- hakim
+
+- halaman
+
+- hari
+
+- hasil
+
+- hewan
+
+- hiburan
+
+- hidangan
+
+- hidung
+
+- hijau
+
+- ibu
+
+- ide
+
+- ikan
+
+- iklan
+
+- iklim
+
+- imajinasi
+
+- independen
+
+- indikasi
+
+- individu
+
+- jaket
+
+- jalan
+
+- jam
+
+- jaminan
+
+- janji
+
+- jantung
+
+- jarak
+
+- jari
+
+- jaring
+
+- kabel
+
+- kabinet
+
+- kabupaten
+
+- kaca
+
+- kait
+
+- kakek
+
+- kaki
+
+- kalender
+
+- kamera
+
+- laci
+
+- lalat
+
+- lantai
+
+- lapangan
+
+- lapisan
+
+- latihan
+
+- leher
+
+- lelucon
+
+- lemak
+
+- madu
+
+- majalah
+
+- majikan
+
+- makanan
+
+- malam
+
+- manajemen
+
+- manajer
+
+- manfaat
+
+- nama
+
+- napas
+
+- nasional
+
+- negara
+
+- negosiasi
+
+- nenek
+
+- niat
+
+- Novel
+
+- nyeri
+
+- obat
+
+- objek
+
+- operasi
+
+- orang
+
+- orang tua
+
+- organisasi
+
+- otak
+
+- otot
+
+- oven
+
+- pacar
+
+- pagi
+
+- pahit
+
+- pakaian
+
+- paket
+
+- panduan
+
+- panggang
+
+- panggilan
+
+- panik
+
+- panjang
+
+- pantai
+
+- putri
+
+- penampilan
+
+- Penawaran
+
+- pendapat
+
+- pendapatan
+
+- pendidikan
+
+- penekanan
+
+- penerbangan
+
+- pengacara
+
+- pengadilan
+
+- pengalaman
+
+- pengantar
+
+- pengaruh
+
+- pintu
+
+- pipi
+
+- piringan
+
+- pisau
+
+- pola
+
+- potongan
+
+- pria
+
+- pribadi
+
+- produsen
+
+- pulau
+
+- puncak
+
+- punggung
+
+- rambut
+
+- rangka
+
+- rantai
+
+- rapat
+
+- rendah
+
+- retak
+
+- rincian
+
+- rokok
+
+- roti
+
+- sabuk
+
+- Saldo
+
+- salinan
+
+- saluran
+
+- sampah
+
+- sapi
+
+- saraf
+
+- saran
+
+- sarapan
+
+- satu
+
+- saudara
+
+- susu
+
+- taman
+
+- tamu
+
+- tanah
+
+- tangan
+
+- tangga
+
+- tangkapan
+
+- tantangan
+
+- tarian
+
+- taruhan
+
+- tas
+
+- tinggi
+
+- tingkat
+
+- titik
+
+- tombol
+
+- topi
+
+- tubuh
+
+- tugas
+
+- Tuhan
+
+- tujuan
+
+- tulang
+
+- tunai
+
+- uang
+
+- udara
+
+- ujian
+
+- upaya
+
+- urusan
+
+- usaha
+
+- usia
+
+- utama
+
+- utang
+
+- Makan
+
+- Minum
+
+- Tidur
+
+- Duduk
+
+- Jalan
+
+- Baca
+
+- Lari
+
+- Lihat
+
+- Dengar
+
+- Bicara
+
+- Kerja
+
+- Ajar
+
+- Masak
+
+- Beli
+
+- Jual
+
+- Buka
+
+- Tutup
+
+- Ambil
+
+- Beri
+
+- Cuci
+
+- Sapu
+
+- Cinta
+
+- Tangis

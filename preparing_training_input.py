@@ -1,11 +1,13 @@
 import cv2
 import math
+import numpy as np
+import tensorflow as tf
 
 def get_training_input():
     """Generate training input
         Output: word_frames_dict (dictionary). key = words, value = list of frames
     """
-    VIDEO_URLS_PATH = "assets/Filtering_word_with_link_video.txt"
+    VIDEO_URLS_PATH = "assets/new_common_words.txt"
     f = open(VIDEO_URLS_PATH, 'r')
     word_url_dict = dict()
     for line in f:
@@ -48,14 +50,14 @@ def get_training_input():
 
 if __name__ == "__main__":
     word_frames = get_training_input()
-    counter = 0
-    for frame in word_frames['A']:
-        cv2.imshow('frame', frame)
-        print(counter)
-        counter += 1
-        key = cv2.waitKey(0)
-        while key not in [ord('q'), ord('k')]:
-            key = cv2.waitKey(0)
+
+    for word, frames in word_frames.items():
+        writer = cv2.VideoWriter(f'assets/videos/{word}.avi', cv2.VideoWriter_fourcc(*"MJPG"), 30, (1280, 720))
+        for frame in frames:
+            frame = cv2.resize(frame, (1280, 720), interpolation = cv2.INTER_LINEAR)
+            writer.write(frame)
+        writer.release()
+        cv2.destroyAllWindows()
     
 
     

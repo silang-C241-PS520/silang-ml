@@ -37,11 +37,19 @@ def find_common_words_and_generate_links(words_kbbi, words_pmpk):
     return video_links
 
 if __name__ == "__main__":
-    words_kbbi = word_scraping_kbbi()
-    print(f"Scraped words from KBBI: {len(words_kbbi)} words")
+    #words_kbbi = word_scraping_kbbi()
+    #print(f"Scraped words from KBBI: {len(words_kbbi)} words")
     
     words_pmpk = word_scraping_pmpk()
     print(f"Scraped words from PMPK Kemdikbud: {len(words_pmpk)} words")
+
+    f = open('assets/new_common_words.txt')
+    words_kbbi = []
+    for line in f:
+        word = line.strip()
+        words_kbbi.append(word)
+
+    f.close()
     
     video_links = find_common_words_and_generate_links(words_kbbi, words_pmpk)
 
