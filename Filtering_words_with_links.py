@@ -43,7 +43,7 @@ if __name__ == "__main__":
     words_pmpk = word_scraping_pmpk()
     print(f"Scraped words from PMPK Kemdikbud: {len(words_pmpk)} words")
 
-    f = open('assets/new_common_words.txt')
+    f = open('assets/60_words.txt')
     words_kbbi = []
     for line in f:
         word = line.strip()
@@ -53,7 +53,7 @@ if __name__ == "__main__":
     
     video_links = find_common_words_and_generate_links(words_kbbi, words_pmpk)
 
-    with open("common_words_with_videos.txt", "w") as f:
+    with open("minimum_common_words_with_videos.txt", "w") as f:
         for word, link in video_links.items():
             f.write(f"{word}: {link}\n")
 
